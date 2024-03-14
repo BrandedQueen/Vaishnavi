@@ -46,7 +46,7 @@ config: {
        };
 
        if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Admin kon hai")) {
-         return api.sendMessage("[𝐎𝐖𝐍𝐄𝐑:☞➸⃝Vaishnavi ☜\n.Gupge 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- https://www.facebook.com/The.QueenGirl.Haniya", threadID);
+         return api.sendMessage("Typing... Please wait For The Response....!", threadID);
        };
 
       if ((event.body.toLowerCase() == "new movie") || (event.body.toLowerCase() == "latest movie")) {
