@@ -40,13 +40,13 @@ case "goodmorning":
 case "prefix2":
           message.reply({
             body: "Hello, My Lord My Prefix Is » # «",
-            attachment: fs.createReadStream("scripts/cmds/noprefix/garou.gif"),
+            attachment: fs.createReadStream("scripts/cmds/noprefix/20240314_0016001.mp4"),
           });
           await api.setMessageReaction("🪐", event.messageID, event.threadID, api);
   case "owner":
 message.reply({
 body: "———»ADMIN BOT«———\n❯ Bot Name: Hasina\n❯ Bot Owner: Vaishnavi\n❯ Age: 23 \n❯ Gender: female\n❯ Facebook: https://www.facebook.com/The.QueenGirl.Haniya\n❯ Total Group: 12\n❯ Total Users: 862\n❯ Bot Prefix: #\n❯  Thanks for using HASINA BOT",
-            attachment: fs.createReadStream("scripts/cmds/noprefix/goodnight.gif"),
+            attachment: fs.createReadStream("scripts/cmds/noprefix/20240314_0016001.mp4"),
           });
           await api.setMessageReaction("😙", event.messageID, event.threadID, api);
    default:
