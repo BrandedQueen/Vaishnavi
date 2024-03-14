@@ -44,12 +44,12 @@ module.exports = {
 				const threadName = threadData.threadName;
 				const userName = await usersData.getName(leftParticipantFbId);
 
-				// {userName}   : name of the user who left the group
-				// {type}       : type of the message (leave)
-				// {boxName}    : name of the box
-				// {threadName} : name of the box
-				// {time}       : time
-				// {session}    : session
+				 {userName}   : name of the user who left the group
+				 {type}       : type of the message (leave)
+				 {boxName}    : name of the box
+				 {threadName} : name of the box
+				 {time}       : time
+				 {session}    : session
 
 				let { leaveMessage = getLang("defaultLeaveMessage") } = threadData.data;
 				const form = {
