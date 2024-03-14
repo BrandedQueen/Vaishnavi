@@ -33,7 +33,7 @@ config: {
     }
 
     const videoResponse = await axios.get(bold, { responseType: 'arraybuffer' });
-    const videoPath = path.join(tmpFolderPath, 'owner_video.mp4');
+    const videoPath = path.join(tmpFolderPath, '20240314_0016001.mp4');
 
     fs.writeFileSync(videoPath, Buffer.from(videoResponse.data, 'binary'));
 
