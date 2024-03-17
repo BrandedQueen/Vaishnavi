@@ -20,7 +20,7 @@ config: {
       gender: 'female',
       age: '23',
       height: 'kya karega janke',
-      facebookLink: 'https://www.facebook.com/The.QueenGirl.Haniya',
+      facebookLink: 'https://www.facebook.com/The.Vaishnavi.X',
       nick: 'Vaishu'
     };
 
